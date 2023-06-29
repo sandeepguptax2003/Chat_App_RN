@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Login</title>
+    <link rel="stylesheet" href="../frontend/css/login.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.all.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.min.css"
+      rel="stylesheet"
+    />
+    <script src="sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="sweetalert2.min.css" />
+  </head>
+
+  <body>
+    <a href="./index.html"><button class="home">Home</button></a>
+    <h1 style="text-align: center; color: rgb(194, 106, 106)">
+      Login Here To Continue
+    </h1>
+    <div class="container" style="margin-top: -70px">
+      <div class="form" id="login-form">
+        <h2>Login</h2>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required />
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" required />
+
+        <button type="submit">Login</button>
+
+        <button id="forgot">Forgot Password</button>
+        <div class="login-signup-div">
+          <h3>New User? Register Here</h3>
+          <a href="./signup.html" class="register-link"
+            ><button>Register</button></a
+          >
+        </div>
+      </div>
+    </div>
+
+    <script src="../frontend/js/login.js"></script>
+  </body>
+</html>

@@ -1,0 +1,166 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  background-color: #f0f0f0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="number"] {
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 250px;
+  box-sizing: border-box;
+}
+
+button[type="submit"],
+button[type="button"] {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  width: 250px;
+}
+
+#otp-input,
+#otp-form {
+  display: none;
+}
+
+#error-message {
+  color: red;
+  display: none;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-right: 30px;
+}
+
+.form h2 {
+  margin-top: 0;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+button[type="submit"] {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#forgot {
+  background-color: #d15d27;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form {
+  width: 400px;
+  height: 430px;
+  padding: 20px;
+}
+
+.login-signup-div {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.login-signup-div h3 {
+  margin-bottom: 5px;
+}
+
+.login-signup-div button {
+  display: block;
+  margin: 0 auto;
+  width: 90px;
+  height: 30px;
+  color: #ffffff;
+  background-color: #5fba57;
+  border: none;
+  border-radius: 2px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.login-signup-div .register-link {
+  text-decoration: none;
+}
+
+.login-signup-div .login-link {
+  text-decoration: none;
+}
+
+.home {
+  width: 90px;
+  height: 40px;
+  background-color: aqua;
+  border: none;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+}

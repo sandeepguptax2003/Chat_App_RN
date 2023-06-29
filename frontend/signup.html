@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>SignUp</title>
+    <link rel="stylesheet" href="../frontend/css/login.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.all.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.min.css"
+      rel="stylesheet"
+    />
+    <script src="sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="sweetalert2.min.css" />
+  </head>
+
+  <body>
+    <a href="./index.html"><button class="home">Home</button></a>
+    <h1 style="text-align: center; color: rgb(194, 106, 106)">
+      Signup Here To Continue
+    </h1>
+    <div class="container" style="margin-top: -70px">
+      <div class="form" id="register-form">
+        <h2>Register</h2>
+        <div class="form-group">
+          <label for="register-email">Email</label>
+          <input type="email" id="register-email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="register-password">Password</label>
+          <input
+            type="password"
+            id="register-password"
+            name="password"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="register-confirm-password">Confirm Password</label>
+          <input
+            type="password"
+            id="register-confirm-password"
+            name="confirm-password"
+            required
+          />
+        </div>
+        <button type="submit">Register</button>
+        <div class="login-signup-div">
+          <h3>Already Registered? Login Here</h3>
+          <a href="./login.html" class="login-link"><button>Login</button></a>
+        </div>
+      </div>
+    </div>
+
+    <script src="../frontend/js/login.js"></script>
+  </body>
+</html>
